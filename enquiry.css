@@ -1,0 +1,172 @@
+*{
+	margin:0.2vh;
+	padding:0.5vh;
+}
+
+body{
+	background:rgb(0,6,20);
+}
+	
+.all{
+	border: 0.5vh double rgb(255,255,255);
+	border-radius:10vh
+}
+
+.title{
+	font-family:"times new roman","elephant","monospace";
+	text-align:center;
+	color:rgb(12,190,205);
+	font-size:60px;
+	text-decoration:underline;
+	font-style:italic;
+	text-transform:capitalize;
+	margin-bottom:3vh;
+}
+
+.hr1{
+	size:1vh;
+	margin-bottom:2vh;
+	padding:0.4vh;
+}
+
+.name{
+	display:inline-block;
+	color:rgb(255,255,0);
+	font-size:6vh
+}
+	
+.input{
+	display:inline-block;
+}
+	
+.input1{
+	height:5vh;
+	width:54vw;
+	position:relative;
+	bottom:0.7vh;
+	padding:0vh 2vh;
+	background-color:rgb(0,6,20);
+	border:0.4vh solid rgb(255,255,255);
+	border-radius:2vh;
+	color:rgb(255,255,255);
+	font-size:4vh;
+	margin-bottom:1vh;
+}
+		
+.input2{
+	height:5vh;
+	width:63vw;
+	position:relative;
+	bottom:0.7vh;
+	padding:0vh 2vh;
+	background-color:rgb(0,6,20);
+	border:0.4vh solid rgb(255,255,255);
+	border-radius:2vh;
+	color:rgb(255,255,255);
+	font-size:4vh;
+	margin-bottom:1vh;
+}
+	
+.span{
+	font-size:5vh;
+	color:rgb(255,255,255);
+}
+
+.radiodiv{
+	display:inline-block;
+	padding:0vh 6vh;
+	border:0.3vh solid white;
+	border-radius:2vh
+}
+	
+.submitdiv{
+	display:inline-block;
+	display:flex;
+	justify-content:center;
+}
+	
+.submit{
+	height:12vh;
+	width:12vw;
+	font-size:4vh;
+	color:rgb(255,255,255);
+	background-color:rgb(5,31,1);
+	margin-top:5vh;
+	border:0.5vh solid white;
+	border-radius:6vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.a{
+	text-decoration:none;
+}
+	
+hr{
+	margin:0;
+	padding:0;
+}
+
+@media only screen and (max-width:744px){
+	.title{
+		font-size:7vw;
+	}
+		
+	.radiodiv{
+		padding:0vh 3vh;
+	}
+			
+	.span{
+		font-size:3vh;
+	}
+	.submit{
+		height:6vh;
+		width:14vw;
+		font-size:2.5vh;
+	}
+}
+			
+@media only screen and (max-width:540px){
+	.radiodiv{
+		padding:0vh 1vh;
+	}
+	
+	.span{
+		font-size:3vh;
+	}
+	
+	.name{
+		font-size:3vh;
+	}
+	
+	.input1{
+		height:3vh;
+		font-size:2.6vh;
+	}
+	
+	.input2{
+		height:3vh;
+		font-size:2.6vh;
+	}
+}
+			
+@media only screen and (max-width:358px){
+	.radiodiv{
+		padding:0vh 1vh;
+	}
+				
+	.span{
+		font-size:2vh;
+	}
+}	
+
+@media only screen and (max-width:318px){
+	.radiodiv{
+		padding:0vh 1vh;
+	}
+				
+	.span{
+		font-size:1.5vh;
+	}
+}
