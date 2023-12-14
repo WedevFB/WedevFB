@@ -1,0 +1,119 @@
+*{
+	margin:0.2vh;
+	padding:0.5vh;
+}
+
+body{
+	background:rgb(0,6,20);
+}
+
+.a1, .a2{
+	color:rgb(5,216,210);
+	text-decoration:none;
+	font-size:4vh;
+	padding:0vh 2vh;
+	margin:0vh 1.5vh;
+	border:0.4vh solid rgb(5,216,210);
+	border-radius:1.5vh;
+}
+
+.nav{
+	display:flex;
+	justify-content:center;
+}
+
+.marqueediv{
+	border:1vh solid rgb(172,244,251);
+	border-radius:3vh;
+	margin-top:3vh;
+}
+
+.m1{
+	display:inline-block;
+	color:rgb(255,255,255);
+	font-size:5vh;
+	font-style:italic;
+}
+
+.m2{
+	display:inline-block;
+	font-size:6vh;
+	color:rgb(4,255,66);
+	font-family:"elephant","times new roman";
+	font-style:italic;
+}
+
+.p1{
+	text-align:center;
+	color:rgb(255,0,0);
+	margin:5vh 0vh;
+	font-size:30px;
+}
+
+.email{
+	color:rgb(255,128,0);
+	font-size:40px;
+	display:inline-block;
+}
+
+.content{
+	color:rgb(255,255,255);
+	font-size:40px;
+	display:inline-block;
+}
+
+.github{
+	color:rgb(92,209,14);
+	font-size:40px;
+	display:inline-block;
+}
+
+.instagram{
+	color:rgb(198,15,152);
+	font-size:40px;
+	display:inline-block;
+}
+
+.facebook{
+	color:rgb(0,128,192);
+	font-size:40px;
+	display:inline-block;
+}
+
+.all1{
+	border:0.4vh solid rgb(255,255,255);
+	border-radius:2vh;
+	display:inline-block;
+}
+
+.all{
+	display:flex;
+	justify-content:center;
+	margin-bottom:6vh;
+}
+
+hr{
+	background-color:rgb(40,206,215);
+}
+
+.f1{
+	color:rgb(149,43,255);
+	font-size:30px;
+	text-align:center;
+}
+
+.f2{
+	color:rgb(100,150,255);
+	font-size:40px;
+	text-align:center;
+}
+
+.f3{
+	color:rgb(40,206,215);
+	font-size:40px;
+	text-align:center;
+}
+
+.fall{
+	margin-top:1vh
+}
