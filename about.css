@@ -108,10 +108,10 @@ body {
 
 .front {
   transform: rotateY(0deg);
-  background: #96e431;
+  background:#00a76fec;
   text-align: center;
   font-size: 30px;
-  color:#049cf4 ;
+  color:yellow;
 }
 
 
