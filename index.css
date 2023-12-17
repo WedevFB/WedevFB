@@ -38,19 +38,18 @@ nav ul li a {
     font-size: 20px;
 }
 .a1,
-.a2 ,
-.a3{
+.a2,
+.a3 {
     text-decoration: none;
     font-size: 40px;
 }
-.a3{
-  background: #2d6df4;
+.a3 {
+    background: #2d6df4;
 }
-.contact:hover{
-
+.contact:hover {
 }
-.about:hover{
-   background: ;
+.about:hover {
+    background:;
 }
 .marqueediv {
     border: 1vh solid rgb(172, 244, 251);
