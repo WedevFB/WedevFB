@@ -110,7 +110,7 @@ body {
 
 .front {
     transform: rotateY(0deg);
-    background: #00a76fec;
+    background: linear-gradient(to left bottom, #d81210, #d4165f);
     text-align: center;
     font-size: 30px;
     color: yellow;
