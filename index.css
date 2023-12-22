@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-item:hover{
-  background-color:linear-gradient(to left bottom, #c30e00, #d41658);
+  color:linear-gradient(to left bottom, #c30e00, #d41658);
 }
 
 .marqueediv {
