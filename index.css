@@ -7,9 +7,9 @@
 }
 
 body {
-    background: rgb(0, 6, 20);
+    background:rgb(0,6,20);
 }
-/* Basic reset for list styles */
+
 .navbar,
 .navbar-list {
   margin: 0;
@@ -17,14 +17,13 @@ body {
   list-style: none;
 }
 
-/* Navbar styles */
+
 .navbar {
   background-color: #333;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo {
@@ -33,22 +32,22 @@ body {
   font-weight: bold;
 }
 
-/* Navbar item styles */
+
 .navbar-item {
   margin-right: 20px;
   float: right;
+  justify-content: flex-start;
 }
 
-/* Navbar link styles */
+
 .navbar-link {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
-.navbar-item:hover .navbar-link {
-  color: #ffcc00; /* Change to your desired hover color */
+.navbar-item:hover{
+  background-color:linear-gradient(to left bottom, #c30e00, #d41658);
 }
 
 .marqueediv {
