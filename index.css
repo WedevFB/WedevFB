@@ -1,237 +1,237 @@
 * {
-    margin: 0.5vh;
-    padding: 0px;
-    text-align: justify;
-    list-style: none;
-    box-sizing: border-box;
+margin: 0.5vh;
+padding: 0px;
+text-align: justify;
+list-style: none;
+box-sizing: border-box;
 }
 
 body {
-    background: rgb(0, 6, 20);
+background: rgb(0, 6, 20);
 }
 
 .navbar,
 .navbar-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+margin: 0;
+padding: 0;
+list-style: none;
 }
 
 .navbar {
-    background-color: #1bc594;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+background-color: #1bc594;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+color: white;
+font-size: 24px;
+font-weight: bold;
 }
 
 .navbar-item {
-    margin-right: 20px;
-    float: right;
-    justify-content: flex-start;
+margin-right: 20px;
+float: right;
+justify-content: flex-start;
 }
 
 .navbar-link {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease;
+text-decoration: none;
+color: white;
+transition: color 0.3s ease;
 }
 
 .navbar-item:hover {
-    color: #0e42d4;
+color: #0e42d4;
 }
 
 .marqueediv {
-    border: 1vh solid rgb(172, 244, 251);
-    border-radius: 3vh;
-    margin-top: 3vh;
+border: 1vh solid rgb(172, 244, 251);
+border-radius: 3vh;
+margin-top: 3vh;
 }
 
 .m1 {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    font-size: 6vh;
-    font-style: italic;
+display: inline-block;
+color: rgb(255, 255, 255);
+font-size: 6vh;
+font-style: italic;
 }
 
 .m2 {
-    display: inline-block;
-    font-size: 6vh;
-    color: rgb(4, 255, 66);
-    font-family: "elephant", "times new roman";
-    font-style: italic;
+display: inline-block;
+font-size: 6vh;
+color: rgb(4, 255, 66);
+font-family: "elephant", "times new roman";
+font-style: italic;
 }
 
 .title {
-    display: inline-block;
-    color: rgb(255, 12, 68);
-    font-size: 37px;
-    margin: 2.5vh 0vh;
-    font-weight: bold;
-    border-bottom: 0.5vh solid rgb(255, 12, 68);
+display: inline-block;
+color: rgb(255, 12, 68);
+font-size: 37px;
+margin: 2.5vh 0vh;
+font-weight: bold;
+border-bottom: 0.5vh solid rgb(255, 12, 68);
 }
 
 .p1 {
-    color: rgb(255, 255, 255);
-    font-size: 27px;
-    margin-bottom: 3vh;
+color: rgb(255, 255, 255);
+font-size: 27px;
+margin-bottom: 3vh;
 }
 
 .aenq {
-    color: rgb(248, 138, 29);
-    text-decoration: underline;
+color: rgb(248, 138, 29);
+text-decoration: underline;
 }
 
 .gs {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 128, 0);
-    font-size: 7vh;
-    text-align: center;
-    border-radius: 3vh;
-    width: 250px;
-    border: 2px solid rgb(255, 255, 255);
-    text-decoration: none;
+display: inline-block;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 128, 0);
+font-size: 7vh;
+text-align: center;
+border-radius: 3vh;
+width: 250px;
+border: 2px solid rgb(255, 255, 255);
+text-decoration: none;
 }
 .gs:hover {
-    background: #3708b8;
-    color: #b8f21e;
-    transition: 2s;
+background: #3708b8;
+color: #b8f21e;
+transition: 2s;
 }
 .flex {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4vh;
+display: flex;
+justify-content: center;
+margin-bottom: 4vh;
 }
 
 .os {
-    color: rgba(12, 200, 88, 255);
-    font-size: 33px;
-    font-weight: bold;
-    margin-bottom: 1vh;
-    display: inline-block;
-    border-bottom: 0.5vh solid rgba(12, 200, 88, 255);
-    margin: 0vh 0vh 0vh 3vh;
+color: rgba(12, 200, 88, 255);
+font-size: 33px;
+font-weight: bold;
+margin-bottom: 1vh;
+display: inline-block;
+border-bottom: 0.5vh solid rgba(12, 200, 88, 255);
+margin: 0vh 0vh 0vh 3vh;
 }
 
 .offer {
-    color: rgb(200, 155, 255);
-    font-size: 30px;
-    text-align: left;
+color: rgb(200, 155, 255);
+font-size: 30px;
+text-align: left;
 }
 
 .offerall2 {
-    border: 0.4vh solid rgb(255, 255, 255);
-    border-radius: 2vh;
-    display: inline-block;
+border: 0.4vh solid rgb(255, 255, 255);
+border-radius: 2vh;
+display: inline-block;
 }
 
 .offerall {
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3vh;
+display: inline-block;
+display: flex;
+justify-content: center;
+margin-bottom: 3vh;
 }
 .check{
-  height: 200px;
-  width: 200px;
+height: 200px;
+width: 200px;
 }
 }
 input[type=checkbox] {
-    margin: 4px 0 0;
-    line-height: normal;
-    width: 200px;
-    height: 200px;
+margin: 4px 0 0;
+line-height: normal;
+width: 200px;
+height: 200px;
 }
 
 .adiv1,
 .adiv2 {
-    display: inline-block;
-    font-size: 6vh;
+display: inline-block;
+font-size: 6vh;
 }
 
 .adiv1 {
-    text-decoration: none;
-    color: rgb(248, 138, 29);
+text-decoration: none;
+color: rgb(248, 138, 29);
 }
 
 .adiv2 {
-    color: rgb(200, 200, 200);
+color: rgb(200, 200, 200);
 }
 
 .adiv {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .hradiv {
-    background: rgb(5, 216, 210);
-    size: 1vh;
+background: rgb(5, 216, 210);
+size: 1vh;
 }
 .ul @media only screen and (max-width:956px) {
-    .title {
-        font-size: 25px;
-    }
+.title {
+font-size: 25px;
+}
 
-    .p1 {
-        font-size: 23px;
-    }
-    .checkbox:checked~.navbar-item{
-        opacity: 0;
-    }
+.p1 {
+font-size: 23px;
+}
+.checkbox:checked~.navbar-item{
+opacity: 0;
+}
 }
 
 @media only screen and (max-width: 653px) {
-    .title {
-        border-bottom: rgba(0, 0, 0, 0);
-        text-decoration: none;
-    }
+.title {
+border-bottom: rgba(0, 0, 0, 0);
+text-decoration: none;
+}
 }
 
 @media only screen and (max-width: 582px) {
-    .adiv1,
-    .adiv2 {
-        font-size: 25px;
-    }
+.adiv1,
+.adiv2 {
+font-size: 25px;
+}
 }
 
 @media only screen and (max-width: 443px) {
-    .adiv1,
-    .adiv2 {
-        font-size: 20px;
-    }
+.adiv1,
+.adiv2 {
+font-size: 20px;
+}
 }
 
 @media only screen and (max-width: 417px) {
-    .offer {
-        font-size: 22px;
-    }
+.offer {
+font-size: 22px;
+}
 }
 
 @media only screen and (max-width: 362px) {
-    .adiv1,
-    .adiv2 {
-        font-size: 17px;
-    }
+.adiv1,
+.adiv2 {
+font-size: 17px;
+}
 }
 
 @media only screen and (max-width: 318px) {
-    .offer {
-        font-size: 15px;
-    }
+.offer {
+font-size: 15px;
+}
 
-    .os {
-        font-size: 25px;
-    }
+.os {
+font-size: 25px;
+}
 
-    .adiv1,
-    .adiv2 {
-        font-size: 12px;
-    }
+.adiv1,
+.adiv2 {
+font-size: 12px;
+}
 }
