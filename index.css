@@ -7,47 +7,44 @@
 }
 
 body {
-    background:rgb(0,6,20);
+    background: rgb(0, 6, 20);
 }
 
 .navbar,
 .navbar-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-
 .navbar {
-  background-color: linear-gradient(to right bottom, #8812df, #6ad416);
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
-
 
 .navbar-item {
-  margin-right: 20px;
-  float: right;
-  justify-content: flex-start;
+    margin-right: 20px;
+    float: right;
+    justify-content: flex-start;
 }
-
 
 .navbar-link {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
 }
 
-.navbar-item:hover{
-  color:#0e42d4;
+.navbar-item:hover {
+    color: #0e42d4;
 }
 
 .marqueediv {
