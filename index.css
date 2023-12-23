@@ -138,7 +138,10 @@ body {
     justify-content: center;
     margin-bottom: 3vh;
 }
-
+.check{
+  height: 200px;
+  width: 200px;
+}
 }
 input[type=checkbox] {
     margin: 4px 0 0;
