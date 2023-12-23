@@ -19,7 +19,7 @@ body {
 
 
 .navbar {
-  background-color: #333;
+  background-color: linear-gradient(to right bottom, #8812df, #6ad416);
   padding: 15px;
   display: flex;
   justify-content: space-between;
