@@ -141,6 +141,7 @@ body {
 .checkbox {
     height: 500px;
     width: 500px;
+    align-content: right;
 }
 
 .adiv1,
