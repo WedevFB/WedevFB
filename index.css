@@ -176,6 +176,9 @@ body {
     .p1 {
         font-size: 23px;
     }
+    .checkbox:checked~.navbar-item{
+        opacity: 0;
+    }
 }
 
 @media only screen and (max-width: 653px) {
