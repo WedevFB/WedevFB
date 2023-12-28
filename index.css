@@ -36,23 +36,6 @@ margin-right: 20px;
 float: right;
 justify-content: flex-start;
 }
-.checkbox:checked .navbar-item{
-opacity: 0;
-}
-.check{
-height: 200px;
-width: 200px;
-display: flex;
-justify-content: flex-start;
-}
-
-input[type=checkbox] {
-  width: 200px;
-height: 200px;
-margin: 4px 0 0;
-line-height: normal;
-justify-self: flex-end;
-}
 
 .navbar-link {
 text-decoration: none;
@@ -155,8 +138,19 @@ display: flex;
 justify-content: center;
 margin-bottom: 3vh;
 }
+.check{
+height: 200px;
+width: 200px;
+display: flex;
+justify-content: left;
+}
 
-
+input[type=checkbox] {
+margin: 4px 0 0;
+line-height: normal;
+width: 200px;
+height: 200px;
+}
 
 .adiv1,
 .adiv2 {
@@ -189,6 +183,10 @@ font-size: 25px;
 
 .p1 {
 font-size: 23px;
+}
+.checkbox:checked~.navbar-item{
+opacity: 0;
+}
 }
 
 @media only screen and (max-width: 653px) {
